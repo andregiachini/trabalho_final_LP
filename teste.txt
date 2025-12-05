@@ -1,0 +1,7 @@
+echo "(1, 2, 3)" | runhaskell Main.hs
+echo "(true, false)" | runhaskell Main.hs
+echo "#0 (10, 20)" | runhaskell Main.hs
+echo "#1 (10, 20)" | runhaskell Main.hs
+echo "(1 + 2, 3 * 4)" | runhaskell Main.hs
+echo "(\\x:Num -> (x, x + 1)) 5" | runhaskell Main.hs
+echo "((1, 2), (3, 4))" | runhaskell Main.hs
